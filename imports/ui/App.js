@@ -36,6 +36,7 @@ class App extends Component {
     });
   }
   
+  
   renderTasks() {
     let filteredTasks = this.props.tasks;
     if (this.state.hideCompleted) {
