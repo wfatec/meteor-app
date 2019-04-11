@@ -35,6 +35,7 @@ class App extends Component {
       hideCompleted: !this.state.hideCompleted,
     });
   }
+  
   renderTasks() {
     let filteredTasks = this.props.tasks;
     if (this.state.hideCompleted) {
